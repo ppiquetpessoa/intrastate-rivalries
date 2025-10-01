@@ -1,11 +1,11 @@
-# intrastate-rivalries
+# Intrastate Rivalries and Managerial Turnover in Brazilian Football
 
+# Reproduce the analysis
+
+1. Clone or download this repository.
+2. In R:
+
+2.2 Restore the R environment
 install.packages("renv")
-renv::init()
-
-install.packages(c('readxl', 'dplyr', 'plm', 'lubridate', 'fixest', 'corrplot', 'performance', 'clubSandwich', 'car', 'marginaleffects', 'fwildclusterboot', 'lme4', 'pscl', 'pROC', 'DescTools', 'glmmTMB', 'survival', 'survminer', 'dplyr', 'tidyr', 'lubridate', 'broom', 'gtsummary', 'patchwork', 'scales', 'purrr', 'patchwork'))
-lapply(c("readxl", "dplyr", "plm", "lubridate", "fixest", "corrplot", "performance", "clubSandwich", "car", "marginaleffects", "fwildclusterboot", "lme4", "pscl", "pROC", "DescTools", "glmmTMB", "survival", "survminer", "dplyr", "tidyr", "lubridate", "broom", "gtsummary", "patchwork", "scales", "purrr", "patchwork"), library, character.only = TRUE)
-
-renv::snapshot()
-#renv::restore()
+renv::restore()
 
