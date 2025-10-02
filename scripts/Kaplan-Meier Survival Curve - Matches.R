@@ -8,7 +8,7 @@ df <- Kaplan_Meier_Matches |>
     time_matches = as.integer(time_matches)
   )
 
-#Verifying the number of censored manageria spells
+#Verifying the number of censored managerial spells
 N_total    <- nrow(df)
 N_events   <- sum(df$event == 1, na.rm = TRUE)
 N_censored <- sum(df$event == 0, na.rm = TRUE)
