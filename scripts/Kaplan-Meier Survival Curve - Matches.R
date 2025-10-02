@@ -1,5 +1,5 @@
-install.packages(c('survival','survminer','dplyr','tidyr','lubridate','broom','gtsummary','patchwork','scales','purrr','patchwork'))
-lapply(c("survival","survminer","dplyr","tidyr","lubridate","broom","gtsummary","patchwork","scales","purrr","patchwork"), library, character.only = TRUE)
+install.packages(c('survival', 'survminer', 'dplyr', 'tidyr', 'lubridate', 'broom', 'gtsummary', 'patchwork', 'scales', 'purrr', 'patchwork'))
+lapply(c("survival", "survminer", "dplyr", "tidyr", "lubridate", "broom", "gtsummary", "patchwork", "scales", "purrr", "patchwork"), library, character.only = TRUE)
 
 #Importing Dataset
 df <- Kaplan_Meier_Matches |>
