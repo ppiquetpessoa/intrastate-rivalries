@@ -1,3 +1,5 @@
+Intrastate Rivalries and Managerial Turnover in Brazilian Football
+
 How to reproduce the analysis:
 
 1. Clone or download this repository:
