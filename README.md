@@ -15,9 +15,9 @@ Or set your working directory to the folder you just cloned
   install.packages(c('readxl', 'dplyr', 'plm', 'lubridate', 'fixest', 'corrplot', 'performance', 'clubSandwich', 'car','marginaleffects','fwildclusterboot','lme4','pscl','pROC','DescTools','glmmTMB'))
 
 4. Run the scripts (either step by step or all at once):
-source("scripts/01_data_prep.R")
+source("")
 source("scripts/02_models_logit.R")
-source("scripts/03_survival_km.R")
+source("Fixed-Effects Logit Models.R")
 
 If you use this material, please cite:
 P. Piquet (2025). Intrastate Rivalries and Managerial Turnover in Brazilian Football.
