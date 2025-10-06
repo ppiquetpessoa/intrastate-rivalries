@@ -15,8 +15,8 @@ Or set your working directory to the folder you just cloned
   install.packages(c('readxl', 'dplyr', 'plm', 'lubridate', 'fixest', 'corrplot', 'performance', 'clubSandwich', 'car','marginaleffects','fwildclusterboot','lme4','pscl','pROC','DescTools','glmmTMB'))
 
 4. Run the scripts (either step by step or all at once):
-source("")
-source("scripts/02_models_logit.R")
+source("Kaplan-Meier Survival Curve - Days.R")
+source("Kaplan-Meier Survival Curve - Matches.R")
 source("Fixed-Effects Logit Models.R")
 
 If you use this material, please cite:
