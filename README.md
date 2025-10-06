@@ -24,7 +24,12 @@ Or set your working directory to the folder you just cloned
 
 4. Run the scripts (either step by step or all at once):  
 source("Kaplan-Meier Survival Curve - Days.R")  
-source("Kaplan-Meier Survival Curve - Matches.R")  
+source("Kaplan-Meier Survival Curve - Matches.R")
+
+## Repository structure
+datasets/ – data used in the analysis  
+scripts/  – R scripts to reproduce results  
+outputs/  – figures & tables created by scripts
 source("Fixed-Effects Logit Models.R")  
 
 If you use this material, please cite:  
