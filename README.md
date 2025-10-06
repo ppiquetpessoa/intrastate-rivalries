@@ -10,12 +10,14 @@ Or set your working directory to the folder you just cloned
 
 3. Install the required R packages:
 
-- Kaplan-Meier Survival Analysis:  
+- Kaplan-Meier Survival Analysis:
+  ```r
   install.packages(c(  
   'survival', 'survminer', 'dplyr', 'tidyr', 'lubridate', 'broom', 'gtsummary', 'patchwork', 'scales', 'purrr', 'patchwork'  
   ))
 
-- Fixed-Effects Logit Models:  
+- Fixed-Effects Logit Models:
+  ```r
   install.packages(c(  
   'readxl', 'dplyr', 'plm', 'lubridate', 'fixest', 'corrplot', 'performance', 'clubSandwich', 'car','marginaleffects','fwildclusterboot','lme4','pscl','pROC','DescTools','glmmTMB  
   ))
