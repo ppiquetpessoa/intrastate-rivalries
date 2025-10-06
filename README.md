@@ -11,12 +11,15 @@ Or set your working directory to the folder you just cloned
 3. Install the required R packages:
 
 - Kaplan-Meier Survival Analysis:
+  
   install.packages(c('survival', 'survminer', 'dplyr', 'tidyr', 'lubridate', 'broom', 'gtsummary', 'patchwork', 'scales', 'purrr', 'patchwork'))
 
 - Fixed-Effects Logit Models:
+  
   install.packages(c('readxl', 'dplyr', 'plm', 'lubridate', 'fixest', 'corrplot', 'performance', 'clubSandwich', 'car','marginaleffects','fwildclusterboot','lme4','pscl','pROC','DescTools','glmmTMB'))
 
 4. Run the scripts (either step by step or all at once):
+
 source("Kaplan-Meier Survival Curve - Days.R")
 source("Kaplan-Meier Survival Curve - Matches.R")
 source("Fixed-Effects Logit Models.R")
